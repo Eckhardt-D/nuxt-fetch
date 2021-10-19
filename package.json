@@ -1,0 +1,25 @@
+{
+  "name": "@eckidevs/nuxt-fetch",
+  "version": "0.1.0",
+  "description": "A Universal Fetch implementation for Nuxt.js.",
+  "main": "lib/module.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "nuxt",
+    "fetch",
+    "nuxt.js"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  },
+  "dependencies": {
+    "node-fetch": "2"
+  }
+}
