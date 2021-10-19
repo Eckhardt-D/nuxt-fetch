@@ -1,10 +1,11 @@
 {
-  "name": "@eckidevs/nuxt-fetch",
+  "name": "nuxt-fetch",
   "version": "0.1.0",
   "description": "A Universal Fetch implementation for Nuxt.js.",
   "main": "lib/module.js",
   "directories": {
-    "lib": "lib"
+    "lib": "lib",
+    "test": "tests"
   },
   "scripts": {
     "test": "jest"
@@ -14,12 +15,20 @@
     "fetch",
     "nuxt.js"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Eckhardt Dreyer",
+  "license": "MIT",
   "devDependencies": {
     "jest": "^27.3.1"
   },
   "dependencies": {
     "node-fetch": "2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eckhardt-D/nuxt-fetch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Eckhardt-D/nuxt-fetch/issues"
+  },
+  "homepage": "https://github.com/Eckhardt-D/nuxt-fetch#readme"
 }
