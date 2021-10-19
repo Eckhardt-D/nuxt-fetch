@@ -1,6 +1,6 @@
 {
   "name": "nuxt-fetch",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Universal Fetch implementation for Nuxt.js.",
   "main": "lib/module.js",
   "directories": {
